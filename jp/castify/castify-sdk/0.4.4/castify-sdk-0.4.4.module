@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.castify",
+    "module": "castify-sdk",
+    "version": "0.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "dodv7t76fffrfomeptb5po3ztm"
+    }
+  },
+  "variants": [
+    {
+      "name": "strippedReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "castify-sdk-0.4.4.aar",
+          "url": "castify-sdk-0.4.4.aar",
+          "size": 5230918,
+          "sha512": "92b91842980d0294981cbd8d56a5784941e041e07ee50e7a58ecebebd7b9834d349d4b0374ea89ecb05b405e1e0ce3c407f3020537e25c7f0c4f38d4803d36ff",
+          "sha256": "95b322459b4d52cfa1cb04791d0cb202d76dfa9db1c622f9d83cef4782ee613c",
+          "sha1": "22931c074b01dbfa762e069d5aaddf9d8dbc38dc",
+          "md5": "4703567179430a86d966a7c37a66d101"
+        }
+      ]
+    },
+    {
+      "name": "strippedReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "castify-sdk-0.4.4.aar",
+          "url": "castify-sdk-0.4.4.aar",
+          "size": 5230918,
+          "sha512": "92b91842980d0294981cbd8d56a5784941e041e07ee50e7a58ecebebd7b9834d349d4b0374ea89ecb05b405e1e0ce3c407f3020537e25c7f0c4f38d4803d36ff",
+          "sha256": "95b322459b4d52cfa1cb04791d0cb202d76dfa9db1c622f9d83cef4782ee613c",
+          "sha1": "22931c074b01dbfa762e069d5aaddf9d8dbc38dc",
+          "md5": "4703567179430a86d966a7c37a66d101"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@
   <groupId>jp.castify</groupId>
   <artifactId>castify-sdk</artifactId>
   <versioning>
-    <release>0.4.3</release>
+    <latest>0.4.4-unstripped</latest>
+    <release>0.4.4-unstripped</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -32,7 +33,9 @@
       <version>0.4.1</version>
       <version>0.4.2</version>
       <version>0.4.3</version>
+      <version>0.4.4</version>
+      <version>0.4.4-unstripped</version>
     </versions>
-    <lastUpdated>20201026084513</lastUpdated>
+    <lastUpdated>20201110015918</lastUpdated>
   </versioning>
 </metadata>
