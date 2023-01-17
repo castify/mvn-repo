@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.castify",
+    "module": "castify-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "castify-sdk-1.0.1.aar",
+          "url": "castify-sdk-1.0.1.aar",
+          "size": 4942630,
+          "sha512": "efa498c59922fa32062344a9261829d4a05c571ea1aa21584690b2a6aaa316f993020d141dd3267c7c68ce1e06adc5d2437832fd2b9d97e5a25bdd94d39bacd5",
+          "sha256": "c64172bd6eecf221a03b92478f7f8962a185b0bbaab3949114cee1eee61005bf",
+          "sha1": "e58cf5c95822c4cd9f2174fba799b4b84732e28a",
+          "md5": "941d2cc193e4ba555db8a65708a00cab"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "castify-sdk-1.0.1.aar",
+          "url": "castify-sdk-1.0.1.aar",
+          "size": 4942630,
+          "sha512": "efa498c59922fa32062344a9261829d4a05c571ea1aa21584690b2a6aaa316f993020d141dd3267c7c68ce1e06adc5d2437832fd2b9d97e5a25bdd94d39bacd5",
+          "sha256": "c64172bd6eecf221a03b92478f7f8962a185b0bbaab3949114cee1eee61005bf",
+          "sha1": "e58cf5c95822c4cd9f2174fba799b4b84732e28a",
+          "md5": "941d2cc193e4ba555db8a65708a00cab"
+        }
+      ]
+    }
+  ]
+}
